@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/light_and_dark_mdde_calculator/static/css/main.84c56fee.css",
+    "main.js": "/light_and_dark_mdde_calculator/static/js/main.7f295aed.js",
+    "static/js/787.a2bf511c.chunk.js": "/light_and_dark_mdde_calculator/static/js/787.a2bf511c.chunk.js",
+    "index.html": "/light_and_dark_mdde_calculator/index.html",
+    "main.84c56fee.css.map": "/light_and_dark_mdde_calculator/static/css/main.84c56fee.css.map",
+    "main.7f295aed.js.map": "/light_and_dark_mdde_calculator/static/js/main.7f295aed.js.map",
+    "787.a2bf511c.chunk.js.map": "/light_and_dark_mdde_calculator/static/js/787.a2bf511c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84c56fee.css",
+    "static/js/main.7f295aed.js"
+  ]
+}
