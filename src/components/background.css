@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .light .background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+    height:100vh;
+    
+  }
+
+  .light .calculator {
+    /* height: 500px;
+    width: 500px; */
+    background-color: hsl(0, 0%, 90%);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px rgba(163,151,163,1);
+    
+  }
+
+  .light .calculator .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+  }
+  
+  .light h5 {
+    text-transform: lowercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(60, 10%, 19%);
+  }
+
+  .light h6 {
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: 700;
+    color: hsl(60, 10%, 19%);
+  }
+
+  .light form .keypad {
+    padding:5px;
+    border-radius: 2px;
+    background-color:hsl(0, 5%, 81%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    margin-top: 15px;
+    color: hsl(60, 10%, 19%);
+  }
+
+  .light form .screen {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+    
+  }
+
+  .light form .screen input {
+    text-align: right;
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 30px;
+    height: 70px;
+    background-color: hsl(0, 0%, 93%);
+    margin: 0px;
+    border: none;
+  }
+
+
+  .light form .keypad input {
+    text-align: center;
+    border: 0;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    margin: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 1px 2px 0px 0px rgba(138,133,138,0.78);
+  }
+
+  .light form input[type="button"]:hover {
+    background-color: white;
+  }
+
+  .light form input:focus {
+    outline: none;
+  }
+
+  .light #del {
+    color: white;
+    background-color: hsl(185, 42%, 37%);
+  }
+
+  .light #del:hover {
+    box-shadow: 1px 2px 0px 0px hsl(185, 58%, 25%);
+  }
+
+
+  .light #reset {
+    width: 173px;
+    color: white;
+    background-color: hsl(185, 42%, 37%);
+  }
+
+  .light #reset:hover {
+    box-shadow: 1px 2px 0px 0px hsl(185, 58%, 25%);
+  }
+
+  .light #equal {
+    width: 173px;
+    color: white;
+    background-color: hsl(25, 98%, 40%);
+  }
+
+  .light #equal:hover {
+    box-shadow: 1px 2px 0px 0px hsl(25, 99%, 27%);
+  }
+
+  .light .d-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:  hsl(25, 98%, 40%);
+  }
+
+
+  .dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(268, 75%, 9%);
+    height:100vh;
+    
+  }
+
+  .dark .calculator {
+    /* height: 500px;
+    width: 500px; */
+    background-color: hsl(268, 75%, 9%);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px rgb(41, 1, 41);
+    
+  }
+
+  .dark .calculator .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+  }
+
+
+  .dark h5 {
+    text-transform: lowercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(52, 100%, 62%);
+  }
+
+  .dark h6 {
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: 700;
+    color: hsl(52, 100%, 62%);
+  }
+
+  .dark form .keypad {
+    padding:5px;
+    border-radius: 2px;
+    background-color:hsl(268, 71%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    margin-top: 15px;
+    color: hsl(52, 100%, 62%);
+  }
+
+  .dark form .screen {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+    
+  }
+
+  .dark form .screen input {
+    text-align: right;
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 30px;
+    height: 70px;
+    background-color:hsl(268, 71%, 12%) ;
+    margin: 0px;
+    border: none;
+    color: hsl(52, 100%, 62%);
+  }
+
+
+  .dark form .keypad input {
+    text-align: center;
+    border: 0;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    margin: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: hsl(52, 100%, 62%);
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 1px 2px 0px 0px hsl(290, 70%, 36%);
+  }
+
+  .dark form input[type="button"]:hover {
+    background-color: hsl(290, 70%, 36%);
+  }
+
+  .dark form input:focus {
+    outline: none;
+  }
+
+  .dark #del {
+    color:hsl(0, 0%, 100%);
+    background-color:  hsl(290, 70%, 36%);
+    box-shadow: 1px 2px 0px 0px hsl(285, 91%, 52%);
+  }
+
+  .dark #del:hover {
+    background-color: hsl(285, 91%, 52%);
+  }
+
+
+  .dark #reset {
+    width: 173px;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(290, 70%, 36%);
+    box-shadow: 1px 2px 0px 0px hsl(285, 91%, 52%);
+  }
+
+  .dark #reset:hover {
+    background-color: hsl(285, 91%, 52%);
+  }
+
+  .dark #equal {
+    width: 173px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 1px 2px 0px 0px hsl(177, 92%, 70%);
+  }
+
+ .dark #equal:hover {
+    background-color: hsl(177, 92%, 70%);
+  }
+
+  .dark .d-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: hsl(177, 92%, 70%);
+  }
+
+  /* #dark .switch{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  } */
+
+
+
+  
